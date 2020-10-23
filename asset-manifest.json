@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ToDoList--Add-new-campaign---React/static/css/main.212fef74.chunk.css",
+    "main.js": "/ToDoList--Add-new-campaign---React/static/js/main.a20ccf65.chunk.js",
+    "main.js.map": "/ToDoList--Add-new-campaign---React/static/js/main.a20ccf65.chunk.js.map",
+    "runtime-main.js": "/ToDoList--Add-new-campaign---React/static/js/runtime-main.bf0cd5e6.js",
+    "runtime-main.js.map": "/ToDoList--Add-new-campaign---React/static/js/runtime-main.bf0cd5e6.js.map",
+    "static/js/2.1140daa3.chunk.js": "/ToDoList--Add-new-campaign---React/static/js/2.1140daa3.chunk.js",
+    "static/js/2.1140daa3.chunk.js.map": "/ToDoList--Add-new-campaign---React/static/js/2.1140daa3.chunk.js.map",
+    "index.html": "/ToDoList--Add-new-campaign---React/index.html",
+    "precache-manifest.94862de00a7019d35648ea5d313da968.js": "/ToDoList--Add-new-campaign---React/precache-manifest.94862de00a7019d35648ea5d313da968.js",
+    "service-worker.js": "/ToDoList--Add-new-campaign---React/service-worker.js",
+    "static/css/main.212fef74.chunk.css.map": "/ToDoList--Add-new-campaign---React/static/css/main.212fef74.chunk.css.map",
+    "static/js/2.1140daa3.chunk.js.LICENSE.txt": "/ToDoList--Add-new-campaign---React/static/js/2.1140daa3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf0cd5e6.js",
+    "static/js/2.1140daa3.chunk.js",
+    "static/css/main.212fef74.chunk.css",
+    "static/js/main.a20ccf65.chunk.js"
+  ]
+}
