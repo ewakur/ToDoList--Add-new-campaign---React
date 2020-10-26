@@ -36,8 +36,24 @@ const App = () => {
     setCampaigns(newCampaignsList)
   }
   const editCampaign = (name, keyword, bidAmount, campaignFund, town, radius, status, id) => {
-    console.log(`edytujemy ${name,keyword}`)
+    const campaignsList = [...campaigns];
+    campaignsList.forEach((campaign,index) => {
+      setAccount(prevState => prevState - (campaignFund - campaign.campaignFund))
+      if(index === id){
+        return(
+        campaign.name =  name,
+        campaign.keyword = keyword,
+        campaign.bidAmount = bidAmount,
+        campaign.campaignFund = campaignFund,
+        campaign.town = town,
+        campaign.radius = radius,
+        campaign.status = status
+        )
+      }})
+    setCampaigns(campaignsList)
+    
   }
+
   const newAccountValue =(campaignFund) => {
     setAccount(prevState => prevState - campaignFund)
     
