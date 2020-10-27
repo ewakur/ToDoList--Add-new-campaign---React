@@ -76,8 +76,9 @@ const AddCampaign = (props) => {
             <input name="radius" type="number" value={radius} onChange={handleInputValueChange}/>
             <label>Status</label>
             <input name="status" type="checkbox" checked={status} value={status} onChange={handleInputValueChange}/>
-            <button type="submit">Add campaign</button>
+            <button className="submit" type="submit">Add campaign</button>
         </form>
+        <hr/>
         </>
     )
 }

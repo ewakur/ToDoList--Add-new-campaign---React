@@ -1,3 +1,5 @@
+$green: #104436
+
 .add-campaign
     position: relative
     top: 0
@@ -8,6 +10,34 @@
     width: 50vw
     min-height: 60vh
     justify-content: space-around
+    font-weight: 600
+    margin: 15px 0
 
 h1 
-    text-align: center        
+    text-align: center
+    margin: 20px 0
+
+input, select
+    flex-basis: 25px
+    border: 2px solid $green
+    margin-bottom: 10px 
+    box-sizing: border-box
+    
+input:focus, select:focus
+    background-color: #155644
+    color: white
+
+.add-campaign .submit
+    width: 120px
+    flex-basis: 30px
+    position: relative
+    left: calc(50% - 60px)
+    padding: 7px
+    background-color: white
+    border: 2px solid $green
+    font-size: 15px
+    margin-bottom: 20px 
+
+.add-campaign .submit:hover
+    background-color: $green
+    color: white

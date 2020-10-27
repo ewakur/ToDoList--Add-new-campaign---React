@@ -1,5 +1,6 @@
 import React from 'react';
 import Campaign from './Campaign';
+import '../style/ListCampaigns.sass';
 
 const ListCampaign = (props) => {
     
@@ -19,8 +20,7 @@ const ListCampaign = (props) => {
     ))
     return ( 
         <>
-        <h3>Campaign list:</h3>
-        <table>
+        <table className="campaigns-list">
             <thead>
             <tr>
                 <th>Status</th>

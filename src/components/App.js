@@ -31,15 +31,17 @@ const App = () => {
   }
   const deleteCampaign = (id) => {
     const campaignsList = [...campaigns];
-    const newCampaignsList = campaignsList.filter(campaign => campaign.id !== id);
+    const newCampaignsList = campaignsList.filter(campaign => campaign.id !== id );
     
     setCampaigns(newCampaignsList)
   }
   const editCampaign = (name, keyword, bidAmount, campaignFund, town, radius, status, id) => {
     const campaignsList = [...campaigns];
-    campaignsList.forEach((campaign,index) => {
-      setAccount(prevState => prevState - (campaignFund - campaign.campaignFund))
-      if(index === id){
+    campaignsList.forEach(campaign => {
+
+      setAccount(account - (campaignFund - campaign.campaignFund))
+
+      if(campaign.id === id){
         return(
         campaign.name =  name,
         campaign.keyword = keyword,
@@ -50,6 +52,7 @@ const App = () => {
         campaign.status = status
         )
       }})
+      
     setCampaigns(campaignsList)
     
   }
